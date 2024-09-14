@@ -23,7 +23,7 @@ Components:
 	•	Vulnerability Scanning: Conducted using OWASP ZAP.
 
 *Architecture Diagram*:
-![Architecture Diagram]("C:/Users/BlackAngel/Desktop/terraform/screenshot/architecture.jpg")
+![Architecture Diagram](screenshot/architecture.jpg)
 
 ## *Project Breakdown*
 
