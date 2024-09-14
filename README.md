@@ -38,8 +38,8 @@ Step 1: Google Cloud Storage Setup (Manual)
 	•	Ensure public access is enabled for serving static website content
 
 ![bucket](C:\Users\BlackAngel\Desktop\terraform\screenshot\simplllllebucket.jpg) <!-- Replace with actual path to the diagram image -->
-![bucket](screenshot\simplebucket.jpg) <!-- Replace with actual path to the diagram image -->
-![bucetupload](screenshot\simplbucketupload.jpg) <!-- Replace with actual path to the diagram image -->
+![bucket](screenshot/simplebucket.jpg) <!-- Replace with actual path to the diagram image -->
+![bucetupload](screenshot/simplbucketupload.jpg) <!-- Replace with actual path to the diagram image -->
 
 
   
@@ -137,9 +137,9 @@ website_url = "https://storage.googleapis.com/my-static-website-bucket/index.htm
 
 
 *Terraform Configuration Screenshot*:
-![Terraform Configuration](screenshot\terraform-config.jpg) <!-- Replace with actual path to the
-![Terraform Configuration](screenshot\terraforminit.jpg)<!-- Replace with actual screenshot -->
-![Terraform Apply](screenshot\terraformapply.jpg) <!-- Replace with actual screenshot -->
+![Terraform Configuration](screenshot/terraform-config.jpg) <!-- Replace with actual path to the
+![Terraform Configuration](screenshot/terraforminit.jpg)<!-- Replace with actual screenshot -->
+![Terraform Apply](screenshot/terraformapply.jpg) <!-- Replace with actual screenshot -->
 
 
 ### *Step 3: IAM Role Configuration*
@@ -147,7 +147,7 @@ website_url = "https://storage.googleapis.com/my-static-website-bucket/index.htm
 - *IAM Roles and Permissions*: Configured to follow the principle of least privilege.
 
 *IAM Roles Diagram*:
-![IAM Roles Diagram](screenshot\terraformiamroles.jpg)<!-- Replace with actual path to the diagram image -->
+![IAM Roles Diagram](screenshot/terraformiamroles.jpg)<!-- Replace with actual path to the diagram image -->
 
 ### *Step 4: Vulnerability Scanning*
 
@@ -262,8 +262,7 @@ Conclusion: Implementing these mitigation strategies helps secure the applicatio
 - *IAM Roles*: Managed to enforce least privilege access.
 - *Environment Configuration*: Terraform state is managed without sensitive data exposed.
 
-*Security Best Practices Diagram*:
-![Security Best Practices](path/to/security-best-practices.png) <!-- Replace with actual path to the diagram image -->
+
 
 ---
 
@@ -273,10 +272,6 @@ Conclusion: Implementing these mitigation strategies helps secure the applicatio
 - Successfully applied the Terraform configuration. The static website is live at the provided URL.
 ![url](http://34.49.94.227/index.html)
 
-*Terraform Output Screenshot*:
-![Terraform Output](screenshot\terrafofmapply.jpg) <!-- Replace with actual screenshot -->
-
----
 
 ## *Future Enhancements*
 Future Enhancements
@@ -304,7 +299,7 @@ Future Enhancements
  /README.md
  /terraform.tfstate
  /terraform.tfstate.backup
- ![Terraformcode](screenshot\code.jpg) <!-- Replace with actual screenshot -->
+ ![Terraformcode](screenshot/code.jpg) <!-- Replace with actual screenshot -->
 
 
 *Setup Instructions*:
